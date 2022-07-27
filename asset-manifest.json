@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Peoplesdex-React/static/css/main.e0e3a158.css",
+    "main.js": "/Peoplesdex-React/static/js/main.70d9c6d0.js",
+    "static/js/787.afa10ffd.chunk.js": "/Peoplesdex-React/static/js/787.afa10ffd.chunk.js",
+    "index.html": "/Peoplesdex-React/index.html",
+    "main.e0e3a158.css.map": "/Peoplesdex-React/static/css/main.e0e3a158.css.map",
+    "main.70d9c6d0.js.map": "/Peoplesdex-React/static/js/main.70d9c6d0.js.map",
+    "787.afa10ffd.chunk.js.map": "/Peoplesdex-React/static/js/787.afa10ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0e3a158.css",
+    "static/js/main.70d9c6d0.js"
+  ]
+}
