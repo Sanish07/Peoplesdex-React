@@ -1,38 +1,66 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+body{
+  margin: 0;
+  margin: auto 5vw;
   text-align: center;
+  background-color: #72FFFF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#user-area{
+  margin-top: 5vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#app-head{
+  color : #0078AA;
+  font-family: 'Roboto Slab', serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+::placeholder{
+  color : #fff;
+  font-style: italic;
+}
+
+
+#uname{
+  background-color: #4ab4ff;
+  color : #DFF6FF;
+  text-align: center;
+  padding: 0.5rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 20px;
+  border: 3px solid #DFF6FF;
+}
+
+input:focus{
+  outline: none;
+}
+
+.user-card{
+  background-color: #00D7FF;
+  display: inline-flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 1vh 0.4vw;
+  padding: 0.5vh 0.7vw;
+  border-radius: 20px;
+  border : 2px solid black;
+  transition: all 0.8s;
+  box-shadow: 1px 1px 4px black;
 }
 
-.App-link {
-  color: #61dafb;
+.user-card:hover{
+  transform: scale(1.04);
+  background-color: #0096FF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.user-card > h2 {
+  font-family: 'Montserrat', sans-serif;
+  color : #4B5D67;
+}
+
+.user-card > h3{
+  font-family: 'Lato', sans-serif;
+  color : #FFFFFF;
 }
